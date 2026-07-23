@@ -1,9 +1,32 @@
 aid: apeel
 name: Apeel
-description: Apeel is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
-url: https://raw.githubusercontent.com/api-evangelist/apeel/refs/heads/main/apis.yml
+description: >-
+  Apeel Sciences is a food technology company headquartered in Santa Barbara, California that develops
+  plant-based protective coatings which extend the shelf life of fresh fruits and vegetables. The company
+  uses food-grade ingredients derived from the peels, pulp, and seeds of plants to create a thin, edible
+  layer that reinforces produce's natural peel, slowing water loss and oxidation. This extends peak taste,
+  juiciness, and nutrient retention while reducing reliance on refrigeration, waxes, pesticides, and plastic
+  packaging across the fresh-produce supply chain. Apeel positions itself as a sustainability and food-waste
+  leader, reporting that since 2021 its technology has prevented millions of pieces of fruit from spoiling,
+  avoided tens of thousands of metric tons of CO2-equivalent emissions, and conserved billions of liters of
+  water. Its products have undergone regulatory review in the United States, European Union, and other markets.
+  Apeel is a portfolio company of Andreessen Horowitz (a16z) and was added to the API Evangelist network as a
+  venture-portfolio lead. It publishes no public developer API, developer portal, or machine-readable API
+  specification as of this profile.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.apeel.com/favicon.ico
 x-type: company
+x-category: Food Technology
 x-source: vc-portfolio
 x-backed-by:
 - a16z
@@ -14,9 +37,35 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Food Technology
+- AgTech
+- Sustainability
+- Food Waste
+- Supply Chain
+- Consumer Packaged Goods
+- Agriculture
+- North America
 apis: []
+common:
+- type: DomainSecurity
+  url: security/apeel-domain-security.yml
+- type: Website
+  url: https://www.apeel.com/
+- type: Blog
+  url: https://apeel.substack.com/
+- type: Support
+  url: https://www.apeel.com/contact-us
+- type: PrivacyPolicy
+  url: https://www.apeel.com/privacy-policy
+- type: TermsOfService
+  url: https://www.apeel.com/terms-of-service
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
